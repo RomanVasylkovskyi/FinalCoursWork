@@ -1,0 +1,72 @@
+@media (max-width: 1200px) {
+    .BDPlate {
+        width: 750px;
+    }
+}
+
+@media (max-width: 900px) {
+    .WorkSpace {
+        display: flex;
+        justify-content: center;
+        width: 900px;
+    }
+    .SearchMenu {
+        position: absolute;
+        background-color: #bbb9ac;
+        width: 375px;
+        height: 1125px;
+        right: 0px;
+        top: 100px;
+    }
+    .InfoSpace {
+        width: 100%;
+    }
+    .TopMenu {
+        height: 100px;
+    }
+    .imgtop {
+        margin-right: 25px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-image: url("../img/MenuW.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .WorkSpace {
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+    .SearchMenu {
+        position: absolute;
+        background-color: #bbb9ac;
+        width: 375px;
+        height: 1125px;
+        right: 0px;
+        top: 100px;
+    }
+    .InfoSpace {
+        width: 100%;
+    }
+    .TopMenu {
+        height: 100px;
+    }
+    .BDPlate {
+        width: 550px;
+    }
+    .imgtop {
+        margin-right: 25px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-image: url("../img/MenuW.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
